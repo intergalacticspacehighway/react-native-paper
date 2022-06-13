@@ -2,6 +2,7 @@
 
 exports[`render visible banner, with custom theme 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "backgroundColor": "#ccc",
@@ -30,6 +31,7 @@ exports[`render visible banner, with custom theme 1`] = `
     }
   >
     <View
+      collapsable={false}
       style={
         Object {
           "height": 0,
@@ -37,6 +39,7 @@ exports[`render visible banner, with custom theme 1`] = `
       }
     />
     <View
+      collapsable={false}
       onLayout={[Function]}
       style={Object {}}
     >
@@ -89,6 +92,7 @@ exports[`render visible banner, with custom theme 1`] = `
         }
       >
         <View
+          collapsable={false}
           style={
             Object {
               "backgroundColor": "transparent",
@@ -113,7 +117,7 @@ exports[`render visible banner, with custom theme 1`] = `
             accessibilityRole="button"
             accessibilityState={
               Object {
-                "disabled": undefined,
+                "disabled": false,
               }
             }
             accessible={true}
@@ -201,6 +205,7 @@ exports[`render visible banner, with custom theme 1`] = `
 
 exports[`renders hidden banner, without action buttons and without image 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -229,6 +234,7 @@ exports[`renders hidden banner, without action buttons and without image 1`] = `
     }
   >
     <View
+      collapsable={false}
       style={
         Object {
           "height": 0,
@@ -236,6 +242,7 @@ exports[`renders hidden banner, without action buttons and without image 1`] = `
       }
     />
     <View
+      collapsable={false}
       onLayout={[Function]}
       style={
         Object {
@@ -306,6 +313,7 @@ exports[`renders hidden banner, without action buttons and without image 1`] = `
 
 exports[`renders visible banner, with action buttons and with image 1`] = `
 <View
+  collapsable={false}
   image={[Function]}
   style={
     Object {
@@ -335,6 +343,7 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
     }
   >
     <View
+      collapsable={false}
       style={
         Object {
           "height": 0,
@@ -342,6 +351,7 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
       }
     />
     <View
+      collapsable={false}
       onLayout={[Function]}
       style={Object {}}
     >
@@ -394,6 +404,7 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
         }
       >
         <View
+          collapsable={false}
           style={
             Object {
               "backgroundColor": "transparent",
@@ -418,7 +429,7 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
             accessibilityRole="button"
             accessibilityState={
               Object {
-                "disabled": undefined,
+                "disabled": false,
               }
             }
             accessible={true}
@@ -506,6 +517,7 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
 
 exports[`renders visible banner, with action buttons and without image 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -534,6 +546,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
     }
   >
     <View
+      collapsable={false}
       style={
         Object {
           "height": 0,
@@ -541,6 +554,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
       }
     />
     <View
+      collapsable={false}
       onLayout={[Function]}
       style={Object {}}
     >
@@ -593,6 +607,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
         }
       >
         <View
+          collapsable={false}
           style={
             Object {
               "backgroundColor": "transparent",
@@ -617,7 +632,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
             accessibilityRole="button"
             accessibilityState={
               Object {
-                "disabled": undefined,
+                "disabled": false,
               }
             }
             accessible={true}
@@ -698,6 +713,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
           </View>
         </View>
         <View
+          collapsable={false}
           style={
             Object {
               "backgroundColor": "transparent",
@@ -722,7 +738,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
             accessibilityRole="button"
             accessibilityState={
               Object {
-                "disabled": undefined,
+                "disabled": false,
               }
             }
             accessible={true}
@@ -810,6 +826,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
 
 exports[`renders visible banner, without action buttons and with image 1`] = `
 <View
+  collapsable={false}
   image={[Function]}
   style={
     Object {
@@ -839,6 +856,7 @@ exports[`renders visible banner, without action buttons and with image 1`] = `
     }
   >
     <View
+      collapsable={false}
       style={
         Object {
           "height": 0,
@@ -846,6 +864,7 @@ exports[`renders visible banner, without action buttons and with image 1`] = `
       }
     />
     <View
+      collapsable={false}
       onLayout={[Function]}
       style={Object {}}
     >
@@ -904,6 +923,7 @@ exports[`renders visible banner, without action buttons and with image 1`] = `
 
 exports[`renders visible banner, without action buttons and without image 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -932,6 +952,7 @@ exports[`renders visible banner, without action buttons and without image 1`] = 
     }
   >
     <View
+      collapsable={false}
       style={
         Object {
           "height": 0,
@@ -939,6 +960,7 @@ exports[`renders visible banner, without action buttons and without image 1`] = 
       }
     />
     <View
+      collapsable={false}
       onLayout={[Function]}
       style={Object {}}
     >

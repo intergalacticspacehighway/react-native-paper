@@ -2,6 +2,11 @@
 
 exports[`can render leading radio button control 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
   focusable={true}
   onClick={[Function]}
@@ -39,7 +44,7 @@ exports[`can render leading radio button control 1`] = `
       accessibilityState={
         Object {
           "checked": false,
-          "disabled": undefined,
+          "disabled": false,
         }
       }
       accessible={true}
@@ -126,6 +131,11 @@ exports[`can render leading radio button control 1`] = `
 
 exports[`can render the Android radio button on different platforms 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
   focusable={true}
   onClick={[Function]}
@@ -191,7 +201,7 @@ exports[`can render the Android radio button on different platforms 1`] = `
       accessibilityState={
         Object {
           "checked": false,
-          "disabled": undefined,
+          "disabled": false,
         }
       }
       accessible={true}
@@ -215,6 +225,7 @@ exports[`can render the Android radio button on different platforms 1`] = `
       }
     >
       <View
+        collapsable={false}
         style={
           Object {
             "borderColor": "rgba(0, 0, 0, 0.54)",
@@ -233,6 +244,11 @@ exports[`can render the Android radio button on different platforms 1`] = `
 
 exports[`can render the iOS radio button on different platforms 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
   focusable={true}
   onClick={[Function]}
@@ -298,7 +314,7 @@ exports[`can render the iOS radio button on different platforms 1`] = `
       accessibilityState={
         Object {
           "checked": false,
-          "disabled": undefined,
+          "disabled": false,
         }
       }
       accessible={true}
@@ -357,6 +373,11 @@ exports[`can render the iOS radio button on different platforms 1`] = `
 
 exports[`renders unchecked 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
   focusable={true}
   onClick={[Function]}
@@ -422,7 +443,7 @@ exports[`renders unchecked 1`] = `
       accessibilityState={
         Object {
           "checked": false,
-          "disabled": undefined,
+          "disabled": false,
         }
       }
       accessible={true}

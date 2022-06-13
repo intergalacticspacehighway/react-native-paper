@@ -5,6 +5,7 @@ exports[`renders menu with content styles 1`] = `
   collapsable={false}
 >
   <View
+    collapsable={false}
     style={
       Object {
         "backgroundColor": "transparent",
@@ -28,7 +29,7 @@ exports[`renders menu with content styles 1`] = `
       accessibilityRole="button"
       accessibilityState={
         Object {
-          "disabled": undefined,
+          "disabled": true,
         }
       }
       accessible={true}
@@ -114,6 +115,7 @@ exports[`renders not visible menu 1`] = `
   collapsable={false}
 >
   <View
+    collapsable={false}
     style={
       Object {
         "backgroundColor": "transparent",
@@ -137,7 +139,7 @@ exports[`renders not visible menu 1`] = `
       accessibilityRole="button"
       accessibilityState={
         Object {
-          "disabled": undefined,
+          "disabled": true,
         }
       }
       accessible={true}
@@ -223,6 +225,7 @@ exports[`renders visible menu 1`] = `
   collapsable={false}
 >
   <View
+    collapsable={false}
     style={
       Object {
         "backgroundColor": "transparent",
@@ -246,7 +249,7 @@ exports[`renders visible menu 1`] = `
       accessibilityRole="button"
       accessibilityState={
         Object {
-          "disabled": undefined,
+          "disabled": true,
         }
       }
       accessible={true}

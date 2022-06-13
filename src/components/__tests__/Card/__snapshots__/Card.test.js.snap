@@ -2,6 +2,7 @@
 
 exports[`Card renders an outlined card 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -13,6 +14,11 @@ exports[`Card renders an outlined card 1`] = `
   }
 >
   <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
     accessible={true}
     focusable={false}
     onClick={[Function]}

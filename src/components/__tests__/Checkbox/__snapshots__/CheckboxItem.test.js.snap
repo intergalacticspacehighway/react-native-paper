@@ -7,7 +7,7 @@ exports[`can render leading checkbox control 1`] = `
   accessibilityState={
     Object {
       "checked": false,
-      "disabled": undefined,
+      "disabled": true,
     }
   }
   accessible={true}
@@ -48,7 +48,7 @@ exports[`can render leading checkbox control 1`] = `
       accessibilityState={
         Object {
           "checked": false,
-          "disabled": undefined,
+          "disabled": true,
         }
       }
       accessible={true}
@@ -140,7 +140,7 @@ exports[`can render the Android checkbox on different platforms 1`] = `
   accessibilityState={
     Object {
       "checked": false,
-      "disabled": undefined,
+      "disabled": true,
     }
   }
   accessible={true}
@@ -209,7 +209,7 @@ exports[`can render the Android checkbox on different platforms 1`] = `
       accessibilityState={
         Object {
           "checked": false,
-          "disabled": undefined,
+          "disabled": true,
         }
       }
       accessible={true}
@@ -236,6 +236,7 @@ exports[`can render the Android checkbox on different platforms 1`] = `
       }
     >
       <View
+        collapsable={false}
         style={
           Object {
             "transform": Array [
@@ -284,6 +285,7 @@ exports[`can render the Android checkbox on different platforms 1`] = `
           }
         >
           <View
+            collapsable={false}
             style={
               Object {
                 "borderColor": "rgba(0, 0, 0, 0.54)",
@@ -307,7 +309,7 @@ exports[`can render the iOS checkbox on different platforms 1`] = `
   accessibilityState={
     Object {
       "checked": false,
-      "disabled": undefined,
+      "disabled": true,
     }
   }
   accessible={true}
@@ -376,7 +378,7 @@ exports[`can render the iOS checkbox on different platforms 1`] = `
       accessibilityState={
         Object {
           "checked": false,
-          "disabled": undefined,
+          "disabled": true,
         }
       }
       accessible={true}
@@ -440,7 +442,7 @@ exports[`renders unchecked 1`] = `
   accessibilityState={
     Object {
       "checked": false,
-      "disabled": undefined,
+      "disabled": true,
     }
   }
   accessible={true}
@@ -509,7 +511,7 @@ exports[`renders unchecked 1`] = `
       accessibilityState={
         Object {
           "checked": false,
-          "disabled": undefined,
+          "disabled": true,
         }
       }
       accessible={true}

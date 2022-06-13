@@ -90,7 +90,7 @@ exports[`renders toggle button 1`] = `
   accessibilityRole="button"
   accessibilityState={
     Object {
-      "disabled": undefined,
+      "disabled": false,
       "selected": true,
     }
   }

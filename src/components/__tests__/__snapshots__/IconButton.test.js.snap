@@ -79,7 +79,7 @@ exports[`renders icon button by default 1`] = `
   accessibilityRole="button"
   accessibilityState={
     Object {
-      "disabled": undefined,
+      "disabled": true,
     }
   }
   accessible={true}
@@ -151,7 +151,7 @@ exports[`renders icon button with color 1`] = `
   accessibilityRole="button"
   accessibilityState={
     Object {
-      "disabled": undefined,
+      "disabled": true,
     }
   }
   accessible={true}
@@ -223,7 +223,7 @@ exports[`renders icon button with size 1`] = `
   accessibilityRole="button"
   accessibilityState={
     Object {
-      "disabled": undefined,
+      "disabled": true,
     }
   }
   accessible={true}
@@ -295,7 +295,7 @@ exports[`renders icon change animated 1`] = `
   accessibilityRole="button"
   accessibilityState={
     Object {
-      "disabled": undefined,
+      "disabled": true,
     }
   }
   accessible={true}
@@ -354,6 +354,7 @@ exports[`renders icon change animated 1`] = `
       }
     >
       <View
+        collapsable={false}
         style={
           Object {
             "bottom": 0,

@@ -2,6 +2,7 @@
 
 exports[`Appbar does not pass any additional props to Searchbar 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "alignItems": "center",
@@ -21,6 +22,7 @@ exports[`Appbar does not pass any additional props to Searchbar 1`] = `
   }
 >
   <View
+    collapsable={false}
     style={
       Object {
         "alignItems": "center",
@@ -43,7 +45,7 @@ exports[`Appbar does not pass any additional props to Searchbar 1`] = `
       accessibilityRole="button"
       accessibilityState={
         Object {
-          "disabled": undefined,
+          "disabled": true,
         }
       }
       accessible={true}
@@ -111,11 +113,9 @@ exports[`Appbar does not pass any additional props to Searchbar 1`] = `
     <TextInput
       accessibilityRole="search"
       accessibilityTraits="search"
-      allowFontScaling={true}
       keyboardAppearance="light"
       placeholder="Search"
       placeholderTextColor="rgba(0, 0, 0, 0.54)"
-      rejectResponderTermination={true}
       returnKeyType="search"
       selectionColor="#6200ee"
       style={
@@ -216,6 +216,7 @@ exports[`Appbar does not pass any additional props to Searchbar 1`] = `
 
 exports[`Appbar passes additional props to AppbarBackAction, AppbarContent and AppbarAction 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "alignItems": "center",
@@ -239,7 +240,7 @@ exports[`Appbar passes additional props to AppbarBackAction, AppbarContent and A
     accessibilityRole="button"
     accessibilityState={
       Object {
-        "disabled": undefined,
+        "disabled": false,
       }
     }
     accessible={true}
@@ -298,6 +299,7 @@ exports[`Appbar passes additional props to AppbarBackAction, AppbarContent and A
         }
       >
         <View
+          collapsable={false}
           style={
             Object {
               "bottom": 0,
@@ -358,6 +360,11 @@ exports[`Appbar passes additional props to AppbarBackAction, AppbarContent and A
     </View>
   </View>
   <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
     accessible={true}
     focusable={false}
     onClick={[Function]}
@@ -421,7 +428,7 @@ exports[`Appbar passes additional props to AppbarBackAction, AppbarContent and A
     accessibilityRole="button"
     accessibilityState={
       Object {
-        "disabled": undefined,
+        "disabled": false,
       }
     }
     accessible={true}
@@ -480,6 +487,7 @@ exports[`Appbar passes additional props to AppbarBackAction, AppbarContent and A
         }
       >
         <View
+          collapsable={false}
           style={
             Object {
               "bottom": 0,

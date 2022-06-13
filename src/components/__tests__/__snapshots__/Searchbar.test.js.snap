@@ -2,6 +2,7 @@
 
 exports[`renders with placeholder 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "alignItems": "center",
@@ -24,7 +25,7 @@ exports[`renders with placeholder 1`] = `
     accessibilityRole="button"
     accessibilityState={
       Object {
-        "disabled": undefined,
+        "disabled": true,
       }
     }
     accessible={true}
@@ -92,11 +93,9 @@ exports[`renders with placeholder 1`] = `
   <TextInput
     accessibilityRole="search"
     accessibilityTraits="search"
-    allowFontScaling={true}
     keyboardAppearance="light"
     placeholder="Search"
     placeholderTextColor="rgba(0, 0, 0, 0.54)"
-    rejectResponderTermination={true}
     returnKeyType="search"
     selectionColor="#6200ee"
     style={
@@ -196,6 +195,7 @@ exports[`renders with placeholder 1`] = `
 
 exports[`renders with text 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "alignItems": "center",
@@ -218,7 +218,7 @@ exports[`renders with text 1`] = `
     accessibilityRole="button"
     accessibilityState={
       Object {
-        "disabled": undefined,
+        "disabled": true,
       }
     }
     accessible={true}
@@ -286,11 +286,9 @@ exports[`renders with text 1`] = `
   <TextInput
     accessibilityRole="search"
     accessibilityTraits="search"
-    allowFontScaling={true}
     keyboardAppearance="light"
     placeholder="Search"
     placeholderTextColor="rgba(0, 0, 0, 0.54)"
-    rejectResponderTermination={true}
     returnKeyType="search"
     selectionColor="#6200ee"
     style={

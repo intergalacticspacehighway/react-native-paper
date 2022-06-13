@@ -2,6 +2,7 @@
 
 exports[`renders animated fab 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "backgroundColor": "transparent",
@@ -25,6 +26,7 @@ exports[`renders animated fab 1`] = `
   }
 >
   <View
+    collapsable={false}
     style={
       Object {
         "borderRadius": 28,
@@ -54,6 +56,7 @@ exports[`renders animated fab 1`] = `
       }
     >
       <View
+        collapsable={false}
         pointerEvents="none"
         style={
           Object {
@@ -70,6 +73,7 @@ exports[`renders animated fab 1`] = `
         }
       />
       <View
+        collapsable={false}
         pointerEvents="none"
         style={
           Object {
@@ -92,6 +96,7 @@ exports[`renders animated fab 1`] = `
       />
     </View>
     <View
+      collapsable={false}
       pointerEvents="box-none"
       style={
         Object {
@@ -102,6 +107,7 @@ exports[`renders animated fab 1`] = `
       }
     >
       <View
+        collapsable={false}
         style={
           Object {
             "backgroundColor": "#03dac4",
@@ -122,7 +128,7 @@ exports[`renders animated fab 1`] = `
           accessibilityRole="button"
           accessibilityState={
             Object {
-              "disabled": undefined,
+              "disabled": false,
             }
           }
           accessible={true}
@@ -163,6 +169,7 @@ exports[`renders animated fab 1`] = `
     </View>
   </View>
   <View
+    collapsable={false}
     pointerEvents="none"
     style={
       Object {
@@ -205,6 +212,7 @@ exports[`renders animated fab 1`] = `
     pointerEvents="none"
   >
     <Text
+      collapsable={false}
       ellipsizeMode="tail"
       numberOfLines={1}
       onTextLayout={[Function]}
@@ -235,6 +243,7 @@ exports[`renders animated fab 1`] = `
 
 exports[`renders animated fab with label on the left 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "backgroundColor": "transparent",
@@ -258,6 +267,7 @@ exports[`renders animated fab with label on the left 1`] = `
   }
 >
   <View
+    collapsable={false}
     style={
       Object {
         "borderRadius": 28,
@@ -287,6 +297,7 @@ exports[`renders animated fab with label on the left 1`] = `
       }
     >
       <View
+        collapsable={false}
         pointerEvents="none"
         style={
           Object {
@@ -303,6 +314,7 @@ exports[`renders animated fab with label on the left 1`] = `
         }
       />
       <View
+        collapsable={false}
         pointerEvents="none"
         style={
           Object {
@@ -325,6 +337,7 @@ exports[`renders animated fab with label on the left 1`] = `
       />
     </View>
     <View
+      collapsable={false}
       pointerEvents="box-none"
       style={
         Object {
@@ -335,6 +348,7 @@ exports[`renders animated fab with label on the left 1`] = `
       }
     >
       <View
+        collapsable={false}
         style={
           Object {
             "backgroundColor": "#03dac4",
@@ -356,7 +370,7 @@ exports[`renders animated fab with label on the left 1`] = `
           accessibilityRole="button"
           accessibilityState={
             Object {
-              "disabled": undefined,
+              "disabled": false,
             }
           }
           accessible={true}
@@ -397,6 +411,7 @@ exports[`renders animated fab with label on the left 1`] = `
     </View>
   </View>
   <View
+    collapsable={false}
     pointerEvents="none"
     style={
       Object {
@@ -439,6 +454,7 @@ exports[`renders animated fab with label on the left 1`] = `
     pointerEvents="none"
   >
     <Text
+      collapsable={false}
       ellipsizeMode="tail"
       numberOfLines={1}
       onTextLayout={[Function]}
@@ -471,6 +487,7 @@ exports[`renders animated fab with label on the left 1`] = `
 
 exports[`renders animated fab with label on the right by default 1`] = `
 <View
+  collapsable={false}
   style={
     Object {
       "backgroundColor": "transparent",
@@ -494,6 +511,7 @@ exports[`renders animated fab with label on the right by default 1`] = `
   }
 >
   <View
+    collapsable={false}
     style={
       Object {
         "borderRadius": 28,
@@ -523,6 +541,7 @@ exports[`renders animated fab with label on the right by default 1`] = `
       }
     >
       <View
+        collapsable={false}
         pointerEvents="none"
         style={
           Object {
@@ -539,6 +558,7 @@ exports[`renders animated fab with label on the right by default 1`] = `
         }
       />
       <View
+        collapsable={false}
         pointerEvents="none"
         style={
           Object {
@@ -561,6 +581,7 @@ exports[`renders animated fab with label on the right by default 1`] = `
       />
     </View>
     <View
+      collapsable={false}
       pointerEvents="box-none"
       style={
         Object {
@@ -571,6 +592,7 @@ exports[`renders animated fab with label on the right by default 1`] = `
       }
     >
       <View
+        collapsable={false}
         style={
           Object {
             "backgroundColor": "#03dac4",
@@ -592,7 +614,7 @@ exports[`renders animated fab with label on the right by default 1`] = `
           accessibilityRole="button"
           accessibilityState={
             Object {
-              "disabled": undefined,
+              "disabled": false,
             }
           }
           accessible={true}
@@ -633,6 +655,7 @@ exports[`renders animated fab with label on the right by default 1`] = `
     </View>
   </View>
   <View
+    collapsable={false}
     pointerEvents="none"
     style={
       Object {
@@ -675,6 +698,7 @@ exports[`renders animated fab with label on the right by default 1`] = `
     pointerEvents="none"
   >
     <Text
+      collapsable={false}
       ellipsizeMode="tail"
       numberOfLines={1}
       onTextLayout={[Function]}
